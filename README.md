@@ -1,12 +1,12 @@
-# PassGen v1 beta
+# PassGen v1
  Brut base generating using social engineering.
 
-# Aboute programm
+# About program
  This program is created to check and protect
  your account from hacking.
 
-# Aboute updates
+# About updates
  In the future, the program will
- be update and I will add more
- methods od social engineering
+ be updated and I will add more
+ methods of social engineering
  and more password generation algorithms.
