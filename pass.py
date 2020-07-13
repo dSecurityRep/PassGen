@@ -2,9 +2,9 @@ import os.path
 
 #geting info
 
-nick = str(input("Enter mickname: "))
+nick = str(input("Enter nickname: "))
 date = str(input("Enter year of birth: "))
-name = str(input("Enter name: "))
+name = str(input("Enter name [or - ]: "))
 
 #generating passwords
 
@@ -18,13 +18,20 @@ v3 = nick + x
 
 v4 = nick + z
 
-v5 = name + x
+if name == "-":
+	v5 = ""
+	v6 = ""
 
-v6 = name + z
+else:
+	pass
+
+	v5 = name + x
+	v6 = name + z
 
 #creating brutt base
 
 passwords = [v1, v2, v3, v4, v5, v6]
+
 
 for p in passwords:
 	print(p)
