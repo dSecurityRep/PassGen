@@ -16,4 +16,6 @@
  alghorithms due to questions about girlfriends
  and boyfriends.                                                             
  v2.0 Aded new passwords generation
- alghorithms due to questions about surname
+ alghorithms due to questions about surname                                                
+ v2.2 Aded new passwords generation
+ alghorithms due to questions about child and favourite football team

@@ -7,13 +7,29 @@ date = str(input("Enter year of birth: "))
 name = str(input("Enter name [or -]: "))
 surname = str(input("Enter surname [or -]: "))
 
+print("\n")
+
 pet = str(input("Enter pet\'s name [or -]: "))
+
+print("\n")
 
 girl = str(input("Enter girlfriend or wife name [or -]: "))
 girlnick = str(input("Enter girlfriend or wife nicname [or -]: "))
 
-boy = str(input("Enter boyfriend or hustband name [or -]"))
-boynick = str(input("Enter boyfriend or hustband nickname [or -]"))
+print("\n")
+
+boy = str(input("Enter boyfriend or hustband name [or -]: "))
+boynick = str(input("Enter boyfriend or hustband nickname [or -]: "))
+
+print("\n")
+
+child = str(input("Enter child\'s name [or -]: "))
+childnick = str(input("Enter child\'s nickname [or -]: "))
+childdate = str(input("Enter shild\'s year of birth [or -]: "))
+
+print("\n")
+
+fot = str(input("Enter favourite football team [or -]: "))
 
 #generating passwords
 
@@ -161,6 +177,68 @@ else:
 	v54 = surname + date
 	v55 = date + surname
 
+if child == "-":
+	v56 = ""
+	v57 = ""
+	v58 = ""
+	v59 = ""
+	v60 = ""
+	v61 = ""
+	v62 = ""
+	v63 = ""
+	v64 = ""
+	v65 = ""
+	v66 = ""
+	v67 = ""
+	v68 = ""
+	v69 = ""
+	v70 = ""
+	v71 = ""
+
+else:
+	c = (childdate[2:4])
+
+	v56 = child
+	v57 = childnick
+
+	v58 = child + childnick
+	v59 = childnick + child
+
+	v60 = child + childdate
+	v61 = childdate + child
+
+	v62 = childnick + childdate
+	v63 = childdate + childnick
+
+	v64 = child + c
+	v65 = c + child
+
+	v66 = childnick + c
+	v67 = c + childnick
+
+	v68 = child + x
+	v69 = child + z
+
+	v70 = childnick + x
+	v71 = childnick + z
+
+if fot == "-":
+	v72 = ""
+	v73 = ""
+	v74 = ""
+	v75 = ""
+	v76 = ""
+
+else:
+	v72 = fot
+
+	v73 = fot + "top"
+	v74 = "top" + fot
+
+	v75 = fot + "best"
+	v76 = "best" + fot
+
+
 #creating brutt base
 
 save = open('brut.txt', 'w', encoding = "utf- 8")
@@ -221,5 +299,26 @@ save.write(v52 + '\n')
 save.write(v53 + '\n')
 save.write(v54 + '\n')
 save.write(v55 + '\n')
+save.write(v56 + '\n')
+save.write(v57 + '\n')
+save.write(v58 + '\n')
+save.write(v59 + '\n')
+save.write(v60 + '\n')
+save.write(v61 + '\n')
+save.write(v62 + '\n')
+save.write(v63 + '\n')
+save.write(v64 + '\n')
+save.write(v65 + '\n')
+save.write(v66 + '\n')
+save.write(v67 + '\n')
+save.write(v68 + '\n')
+save.write(v69 + '\n')
+save.write(v70 + '\n')
+save.write(v71 + '\n')
+save.write(v72 + '\n')
+save.write(v73 + '\n')
+save.write(v74 + '\n')
+save.write(v75 + '\n')
+save.write(v76 + '\n')
 
 save.close()
