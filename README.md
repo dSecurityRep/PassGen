@@ -1,4 +1,4 @@
-# PassGen v2.0
+# PassGen v2.2
  Brut base generating using social engineering.
 
 # About program
