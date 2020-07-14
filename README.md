@@ -14,4 +14,6 @@
  algorithms due to questions about pets                                         
  v1.8 Added new passwords generation
  alghorithms due to questions about girlfriends
- and boyfriends.
+ and boyfriends.                                                             
+ v2.0 Aded new passwords generation
+ alghorithms due to questions about surname

@@ -4,9 +4,10 @@ import os.path
 
 nick = str(input("Enter nickname: "))
 date = str(input("Enter year of birth: "))
-name = str(input("Enter name [or - ]: "))
+name = str(input("Enter name [or -]: "))
+surname = str(input("Enter surname [or -]: "))
 
-pet = str(input("Enter pet\'s name [or - ]: "))
+pet = str(input("Enter pet\'s name [or -]: "))
 
 girl = str(input("Enter girlfriend or wife name [or -]: "))
 girlnick = str(input("Enter girlfriend or wife nicname [or -]: "))
@@ -152,6 +153,14 @@ else:
 	v52 = boynick + x
 	v53 = boynick + z
 
+if surname == "-":
+	v54 = ""
+	v55 = ""
+
+else:
+	v54 = surname + date
+	v55 = date + surname
+
 #creating brutt base
 
 save = open('brut.txt', 'w', encoding = "utf- 8")
@@ -210,5 +219,7 @@ save.write(v50 + '\n')
 save.write(v51 + '\n')
 save.write(v52 + '\n')
 save.write(v53 + '\n')
+save.write(v54 + '\n')
+save.write(v55 + '\n')
 
 save.close()
