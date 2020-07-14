@@ -8,6 +8,12 @@ name = str(input("Enter name [or - ]: "))
 
 pet = str(input("Enter pet\'s name [or - ]: "))
 
+girl = str(input("Enter girlfriend or wife name [or -]: "))
+girlnick = str(input("Enter girlfriend or wife nicname [or -]: "))
+
+boy = str(input("Enter boyfriend or hustband name [or -]"))
+boynick = str(input("Enter boyfriend or hustband nickname [or -]"))
+
 #generating passwords
 
 x = "x123"
@@ -71,6 +77,81 @@ else:
 	v26 = pet + "4ik"
 	v27 = pet + "4ka"
 
+if girl == "-":
+	v28 = ""
+	v29 = ""
+	v30 =  ""
+
+	v31 = ""
+
+	v32 = ""
+	v33 = ""
+
+	v34 = ""
+	v35 = ""
+	v36 = ""
+
+	v37 = ""
+	v38 = ""
+
+	v39 = ""
+	v40 = ""
+
+else:
+	v28 = girl
+	v29 = girlnick
+	v30 = girl + girlnick
+
+	v31 = girlnick + girl
+
+	v32 = girl + "." + girlnick
+	v33 = girlnick + "." + girl
+
+	v34 = girl + "4ka"
+	v35 = girlnick + "4ka"
+	v36 = girlnick + "4ik"
+
+	v37 = girl + x
+	v38 = girl + z
+
+	v39 = girlnick + x
+	v40 = girlnick + z
+
+if boy == "-":
+	v41 = ""
+	v42 = ""
+	v43 = ""
+	v44 = ""
+	v45 = ""
+	v46 = ""
+	v47 = ""
+	v48 = ""
+	v49 = ""
+	v50 = ""
+	v51 = ""
+	v52 = ""
+	v53 = ""
+
+else:
+	v41 = boy
+	v42 = boynick
+	v43 = boy + boynick
+
+	v44 = boynick + boy
+
+	v45 = boy + "." + boynick
+	v46 = girlnick + "." + girl
+
+	v47 = boy + "4ik"
+	v48 = boynick + "4ka"
+	v49 = boynick + "4ik"
+
+	v50 = boy + x
+	v51 = boy + z
+
+	v52 = boynick + x
+	v53 = boynick + z
+
 #creating brutt base
 
 save = open('brut.txt', 'w', encoding = "utf- 8")
@@ -103,5 +184,31 @@ save.write(v24 + '\n')
 save.write(v25 + '\n')
 save.write(v26 + '\n')
 save.write(v27 + '\n')
+save.write(v28 + '\n')
+save.write(v29 + '\n')
+save.write(v30 + '\n')
+save.write(v31 + '\n')
+save.write(v32 + '\n')
+save.write(v33 + '\n')
+save.write(v34 + '\n')
+save.write(v35 + '\n')
+save.write(v36 + '\n')
+save.write(v37 + '\n')
+save.write(v38 + '\n')
+save.write(v39 + '\n')
+save.write(v40 + '\n')
+save.write(v41 + '\n')
+save.write(v42 + '\n')
+save.write(v43 + '\n')
+save.write(v44 + '\n')
+save.write(v45 + '\n')
+save.write(v46 + '\n')
+save.write(v47 + '\n')
+save.write(v48 + '\n')
+save.write(v49 + '\n')
+save.write(v50 + '\n')
+save.write(v51 + '\n')
+save.write(v52 + '\n')
+save.write(v53 + '\n')
 
 save.close()

@@ -1,4 +1,4 @@
-# PassGen v1.5
+# PassGen v1.8
  Brut base generating using social engineering.
 
 # About program
@@ -12,3 +12,6 @@
 # Updates
  v1.5 Added new passwords generation
  algorithms due to questions about pets
+ v1.8 Added new passwords generation
+ alghorithms due to questions about girlfriends
+ and boyfriends.
