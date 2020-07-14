@@ -6,6 +6,8 @@ nick = str(input("Enter nickname: "))
 date = str(input("Enter year of birth: "))
 name = str(input("Enter name [or - ]: "))
 
+pet = str(input("Enter pet\'s name [or - ]: "))
+
 #generating passwords
 
 x = "x123"
@@ -48,6 +50,27 @@ v18 = nick + d
 v19 = v7 + d
 v20 = v8 + d
 
+v21 = name + nick
+v22 = nick + name
+
+if pet == "-":
+	v23 = ""
+
+	v24 = ""
+	v25 = ""
+
+	v26 = ""
+	v27 = ""
+
+else:
+	v23 = pet
+
+	v24 = pet + x
+	v25 = pet + z
+
+	v26 = pet + "4ik"
+	v27 = pet + "4ka"
+
 #creating brutt base
 
 save = open('brut.txt', 'w', encoding = "utf- 8")
@@ -73,3 +96,12 @@ save.write(v17 + '\n')
 save.write(v18 + '\n')
 save.write(v19 + '\n')
 save.write(v20 + '\n')
+save.write(v21 + '\n')
+save.write(v22 + '\n')
+save.write(v23 + '\n')
+save.write(v24 + '\n')
+save.write(v25 + '\n')
+save.write(v26 + '\n')
+save.write(v27 + '\n')
+
+save.close()
